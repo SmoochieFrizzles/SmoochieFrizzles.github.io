@@ -53,7 +53,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F14E95;
+  color: #000000;
   outline: none;
   text-decoration: none;
 }
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #fff;
+  color: #000000;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -128,13 +128,13 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: white;
+  color: #F14E95;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 #fh5co-counter,
@@ -1901,4 +1901,17 @@ form label {
   right: 0;
   bottom: 0;
   background: rgb(140, 200, 235);
+}
+
+.navbar-custom-white {
+  background-color: white !important;
+}
+
+.black-text {
+  color: black !important;
+}
+
+.footer-color {
+  background-color: darkgray;
+  color: white;
 }
