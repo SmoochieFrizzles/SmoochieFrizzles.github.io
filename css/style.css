@@ -47,15 +47,16 @@ body {
 }
 
 a {
-  color: #F14E95;
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  text-decoration: underline;
 }
 a:hover, a:active, a:focus {
-  color: #000000;
+  color: #9966CC;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p {
@@ -63,7 +64,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #828282;
+  color: #000;
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -71,17 +72,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F14E95;
+  background: #9966CC;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F14E95;
+  background: #9966CC;
 }
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: #9966CC;
 }
 
 .fh5co-nav {
@@ -108,6 +109,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav a {
   padding: 5px 10px;
   color: #000000;
+  text-decoration: none;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -125,7 +127,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .fh5co-nav ul li a {
-  font-size: 14px;
+  font-size: 16px;
   padding: 30px 10px;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
@@ -134,7 +136,9 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: #F14E95;
+  color: #9966CC;
+  text-decoration: none;
+  
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -190,13 +194,13 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 15px;
 }
 .fh5co-nav ul li.has-dropdown .dropdown li a:hover {
-  color: #000;
+  color: #9966CC;
 }
 .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
-  color: #fff;
+  color: #9966CC;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #F14E95;
+  color: #9966CC;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -594,7 +598,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #F14E95 !important;
+  color: #000 !important;
   font-weight: 600;
 }
 
@@ -892,7 +896,7 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: #F14E95;
+  color: #9966CC;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -1079,7 +1083,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Montserrat", Arial, serif;
-  color: #F14E95;
+  color: #000;
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1194,7 +1198,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
+  color: #000;
   font-family: "Montserrat", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1229,7 +1233,7 @@ form label {
   display: block;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #F14E95;
+  color: #9966CC;
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
@@ -1387,7 +1391,7 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #F14E95;
+  background: #000;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1431,7 +1435,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #F14E95;
+  border: 2px solid #9966CC;
 }
 
 #fh5co-offcanvas {
@@ -1684,21 +1688,21 @@ form label {
 }
 
 .btn-primary {
-  background: #F14E95;
+  background: #9966CC;
   color: #fff;
-  border: 2px solid #F14E95;
+  border: 2px solid #9966CC;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f366a3 !important;
-  border-color: #f366a3 !important;
+  background: #9966CC !important;
+  border-color: #9966CC !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #F14E95;
-  border: 2px solid #F14E95;
+  color: #9966CC;
+  border: 2px solid #9966CC;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #F14E95;
+  background: #9966CC;
   color: #fff;
 }
 
@@ -1828,7 +1832,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #F14E95;
+  border-color: #9966CC;
 }
 
 .row-pb-md {
