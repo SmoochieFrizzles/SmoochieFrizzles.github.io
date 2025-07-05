@@ -470,6 +470,92 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .picture-wrap-shoes {
+    height: auto; min-height: 350px;
+  }
+}
+
+.island-wrap {
+  height:auto; min-height: 675px;
+}
+
+@media screen and (max-width: 768px) {
+  .island-wrap {
+    height: auto; min-height: 470px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .island-wrap {
+    height: auto; min-height: 470px;
+  }
+}
+
+.trogir-wrap {
+  height:auto; min-height: 475px;
+}
+
+@media screen and (max-width: 768px) {
+  .trogir-wrap {
+    height:auto; min-height: 330px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .trogir-wrap {
+    height:auto; min-height: 330px;
+  }
+}
+
+.brown-house-wrap {
+  height:auto; min-height: 675px;
+}
+
+@media screen and (max-width: 768px) {
+  .brown-house-wrap {
+    height:auto; min-height: 470px;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  .brown-house-wrap {
+    height:auto; min-height: 470px;
+  }  
+}
+
+.taxi-wrap {
+  height:auto; min-height: 390px;
+}
+
+@media screen and (max-width: 768px) {
+  .taxi-wrap {
+    height:auto; min-height: 260px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .taxi-wrap {
+    height:auto; min-height: 260px;
+  }
+}
+
+.airport-wrap {
+  height:auto; min-height: 473px;
+}
+
+@media screen and (max-width: 768px) {
+  .airport-wrap {
+    height:auto; min-height: 330px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .airport-wrap {
+    height:auto; min-height: 330px;
+  }
+}
+
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
@@ -2002,4 +2088,9 @@ form label {
 .big-font {
   font-weight: 500;
   font-size: 20px;
+}
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
 }
