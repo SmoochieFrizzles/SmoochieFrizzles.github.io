@@ -651,6 +651,20 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000 !important;
 }
 
+.timeline-link a {
+  color: #000000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.tmeline-link a:hover, a:active, a:focus {
+  color: #9966CC;
+  outline: none;
+  text-decoration: underline;
+}
+
 .timeline-body > p + p {
   margin-top: 5px;
   color: #000 !important;
