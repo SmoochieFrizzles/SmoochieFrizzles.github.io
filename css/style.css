@@ -955,7 +955,8 @@ form label {
   background: #fff !important;
   color: #9966CC;
   border: none !important;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 #fh5co-header .display-tc .btn:hover,
@@ -1984,4 +1985,9 @@ form label {
 
 .tint {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.big-font {
+  font-weight: 500;
+  font-size: 20px;
 }
