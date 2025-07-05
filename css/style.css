@@ -437,6 +437,15 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 4px;
 }
 
+#fh5co-counter .event-wrap-black a,
+#fh5co-event .event-wrap-black a {
+  color: #000000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
   #fh5co-event .event-wrap {
@@ -457,7 +466,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap-black h3,
 #fh5co-event .event-wrap-black h3 {
   font-size: 20px;
-  color: #fff;
+  color: #000000;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   display: block;
   padding-bottom: 20px;
